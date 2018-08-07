@@ -23,7 +23,7 @@ variable "gcs_versioning_enabled" {
 
 variable "lifecycle_rule_action_type" {
   description = "The type of the action of this Lifecycle Rule. Supported values include: Delete and SetStorageClass"
-  default     = "delete"
+  default     = "Delete"
 }
 
 variable "lifecycle_rule_condition_age" {
